@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CDF5C870E17C00B86839CFDCA7F67C5AFEC7986D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BD6EFE5102D9EA7E925C5307AC363EFEE13AEBBF" : 9223372036854775807,
+    "CDF5C870E17C00B86839CFDCA7F67C5AFEC7986D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F969AFDC-BB48-41E1-82A4-411C4A19C84B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BD6EFE5102D9EA7E925C5307AC363EFEE13AEBBF" : "",
+    "CDF5C870E17C00B86839CFDCA7F67C5AFEC7986D" : "StarterApps\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WorldTrotter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WorldTrotter\/WorldTrotter.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nicole10hart\/BNR.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BD6EFE5102D9EA7E925C5307AC363EFEE13AEBBF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nicole10hart\/StarterApps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CDF5C870E17C00B86839CFDCA7F67C5AFEC7986D"
+    }
+  ]
+}

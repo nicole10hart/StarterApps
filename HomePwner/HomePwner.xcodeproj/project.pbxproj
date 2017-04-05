@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EA0387131E945BC5003A4EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387121E945BC5003A4EB9 /* AppDelegate.swift */; };
-		EA0387151E945BC5003A4EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387141E945BC5003A4EB9 /* ViewController.swift */; };
 		EA0387181E945BC5003A4EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0387161E945BC5003A4EB9 /* Main.storyboard */; };
 		EA03871A1E945BC5003A4EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0387191E945BC5003A4EB9 /* Assets.xcassets */; };
 		EA03871D1E945BC5003A4EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA03871B1E945BC5003A4EB9 /* LaunchScreen.storyboard */; };
 		EA0387281E945BC5003A4EB9 /* HomePwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387271E945BC5003A4EB9 /* HomePwnerTests.swift */; };
 		EA0387331E945BC5003A4EB9 /* HomePwnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387321E945BC5003A4EB9 /* HomePwnerUITests.swift */; };
+		EA0387431E9464EC003A4EB9 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387421E9464EC003A4EB9 /* ItemsViewController.swift */; };
+		EA0387451E946607003A4EB9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387441E946607003A4EB9 /* Item.swift */; };
+		EA0387471E946795003A4EB9 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387461E946795003A4EB9 /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +37,7 @@
 
 /* Begin PBXFileReference section */
 		EA03870F1E945BC5003A4EB9 /* HomePwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA0387121E945BC5003A4EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA0387141E945BC5003A4EB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA0387121E945BC5003A4EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = /Users/obq517/BigNerdRanch/StarterApps/HomePwner/HomePwner/AppDelegate.swift; sourceTree = "<absolute>"; };
 		EA0387171E945BC5003A4EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA0387191E945BC5003A4EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA03871C1E945BC5003A4EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		EA03872E1E945BC5003A4EB9 /* HomePwnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomePwnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0387321E945BC5003A4EB9 /* HomePwnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePwnerUITests.swift; sourceTree = "<group>"; };
 		EA0387341E945BC5003A4EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0387421E9464EC003A4EB9 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		EA0387441E946607003A4EB9 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EA0387461E946795003A4EB9 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		EA0387111E945BC5003A4EB9 /* HomePwner */ = {
 			isa = PBXGroup;
 			children = (
+				EA0387421E9464EC003A4EB9 /* ItemsViewController.swift */,
+				EA0387461E946795003A4EB9 /* ItemStore.swift */,
 				EA0387121E945BC5003A4EB9 /* AppDelegate.swift */,
-				EA0387141E945BC5003A4EB9 /* ViewController.swift */,
 				EA0387161E945BC5003A4EB9 /* Main.storyboard */,
+				EA0387441E946607003A4EB9 /* Item.swift */,
 				EA0387191E945BC5003A4EB9 /* Assets.xcassets */,
 				EA03871B1E945BC5003A4EB9 /* LaunchScreen.storyboard */,
 				EA03871E1E945BC5003A4EB9 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0387151E945BC5003A4EB9 /* ViewController.swift in Sources */,
 				EA0387131E945BC5003A4EB9 /* AppDelegate.swift in Sources */,
+				EA0387451E946607003A4EB9 /* Item.swift in Sources */,
+				EA0387471E946795003A4EB9 /* ItemStore.swift in Sources */,
+				EA0387431E9464EC003A4EB9 /* ItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +513,7 @@
 				EA0387391E945BC5003A4EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA03873A1E945BC5003A4EB9 /* Build configuration list for PBXNativeTarget "HomePwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				EA03873C1E945BC5003A4EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA03873D1E945BC5003A4EB9 /* Build configuration list for PBXNativeTarget "HomePwnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				EA03873F1E945BC5003A4EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
