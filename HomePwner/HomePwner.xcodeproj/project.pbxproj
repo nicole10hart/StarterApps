@@ -16,6 +16,7 @@
 		EA0387431E9464EC003A4EB9 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387421E9464EC003A4EB9 /* ItemsViewController.swift */; };
 		EA0387451E946607003A4EB9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387441E946607003A4EB9 /* Item.swift */; };
 		EA0387471E946795003A4EB9 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387461E946795003A4EB9 /* ItemStore.swift */; };
+		EA78D7321E9557AB00AFC200 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78D7311E9557AB00AFC200 /* UITableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EA0387421E9464EC003A4EB9 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		EA0387441E946607003A4EB9 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EA0387461E946795003A4EB9 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		EA78D7311E9557AB00AFC200 /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				EA0387421E9464EC003A4EB9 /* ItemsViewController.swift */,
+				EA78D7311E9557AB00AFC200 /* UITableViewCell.swift */,
 				EA0387461E946795003A4EB9 /* ItemStore.swift */,
 				EA0387121E945BC5003A4EB9 /* AppDelegate.swift */,
 				EA0387161E945BC5003A4EB9 /* Main.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA78D7321E9557AB00AFC200 /* UITableViewCell.swift in Sources */,
 				EA0387131E945BC5003A4EB9 /* AppDelegate.swift in Sources */,
 				EA0387451E946607003A4EB9 /* Item.swift in Sources */,
 				EA0387471E946795003A4EB9 /* ItemStore.swift in Sources */,
